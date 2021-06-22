@@ -74,3 +74,6 @@ orden_mayor_menor <- order(peliculas_df$PUNTUACION,
 peliculas_df[orden_mayor_menor,]
 
 # guardar el dataframe ordenado
+mayor <- peliculas_df[orden_mayor_menor,]
+
+mayor
